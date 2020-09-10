@@ -1,0 +1,31 @@
+body {
+  background-color: #363645;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+p {
+  margin: 5px;
+}
+
+.content-wrapper {
+  margin: 0 20%;
+  width: auto;
+}
+
+.section-wrapper {
+  margin-top: 100px;
+}
+
+.logo-wrapper {
+  margin-bottom: 5%;
+}
+
+.main-text {
+  font-size: 2.5em;
+}
