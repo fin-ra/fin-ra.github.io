@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <title>Fin-Ra Development</title>
 </head>
+
 <body>
 
   <div class="content-wrapper">
 
     <div class="section-wrapper">
       <div class="logo-wrapper">
-        <img src="https://static.tildacdn.com/tild3231-6336-4836-a234-656232366433/________.svg" />
+        <img src="./assets/img/logo_dark.svg" />
       </div>
       <p class="main-text">
-        Разработка платформы обучения <br/>
+        Разработка платформы обучения <br />
         на курсах "Портфельных инвестиций"
       </p>
     </div>
@@ -24,31 +26,45 @@
 
     <div class="section-wrapper">
       <h1>Команда</h1>
-      
-      <ul>
-        <li>
-          <strong>@v9cheslav</strong>
-          <div>Менеджер проекта</div>
+
+      <ul class="cards-list">
+        <li class="card">
+          <h3 class="card-header">Вячеслав Симонов</h3>
+          <div class="card-body">Менеджер проекта и продукта</div>
+          <div class="icons-wrapper">
+            <a href="https://github.com/v9cheslav" target="_blank" title="@v9cheslav"><i class="octoicon"></i></a>
+          </div>
         </li>
-        
-        <li>
-          <strong>@svasorcery</strong>
-          <div>Системный архитектор, ведущий бэкенд-разработчик, тимлид</div>
+
+        <li class="card">
+          <h3 class="card-header">Владимир Синявский</h3>
+          <div class="card-body">Системный архитектор, ведущий фуллстек-разработчик, тимлид</div>
+          <div class="icons-wrapper">
+            <a href="https://github.com/svasorcery" target="_blank" title="@svasorcery"><i class="octoicon"></i></a>
+          </div>
         </li>
-        
-        <li>
-          <strong>@rogulev</strong>
-          <div>Фронтенд-разработчик</div>
+
+        <li class="card">
+          <h3 class="card-header">Алексей Рогулёв</h3>
+          <div class="card-body">Фронтенд-разработчик</div>
+          <div class="icons-wrapper">
+            <a href="https://github.com/rogulev" target="_blank" title="@rogulev"><i class="octoicon"></i></a>
+          </div>
         </li>
-        
-        <li>
-          <strong>_</strong>
-          <div>DevOps</div>
+
+        <li class="card">
+          <h3 class="card-header">_</h3>
+          <div class="card-body">DevOps, бэкенд-разработчик</div>
         </li>
-        
-        <li>
-          <strong>_</strong>
-          <div>Специалист в предметной области</div>
+
+        <li class="card">
+          <h3 class="card-header">Евгений Козубов</h3>
+          <div class="card-body">UX/UI дизайнер</div>
+        </li>
+
+        <li class="card">
+          <h3 class="card-header">Виталий Вербицкий</h3>
+          <div class="card-body">Эксперт в предметной области</div>
         </li>
       </ul>
     </div>
@@ -56,24 +72,27 @@
 
     <div class="section-wrapper">
       <h1>Архитектура</h1>
-      <img src="" />
+      <img src="" alt="Схема архитектуры системы" />
+      <p>Схема появится здесь позже</p>
     </div>
 
 
     <div class="section-wrapper">
       <h1>Стек технологий</h1>
-      <ul>
-        <li>.NET Core 3+</li>
-        <li>PostrgreSQL</li>
-        <li>MongoDB</li>
-        <li>SignalR</li>
-        <li>Angular 10+</li>
-        <li>RxJs</li>
-        <li>DigitalOcean</li>
+      <ul class="cards-list">
+        <li class="card">.NET Core 3+</li>
+        <li class="card">PostrgreSQL</li>
+        <li class="card">MongoDB</li>
+        <li class="card">SignalR</li>
+        <li class="card">Angular 10+</li>
+        <li class="card">RxJs</li>
+        <li class="card">DigitalOcean</li>
       </ul>
     </div>
 
   </div>
+
+  <footer>&copy; 2016–2020 "Школа Безопасных Инвестиций"</footer>
 
 </body>
 </html>
